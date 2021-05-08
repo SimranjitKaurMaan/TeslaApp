@@ -4,10 +4,10 @@ const styles = StyleSheet.create({
     carContainer:{
         width: '100%',
         height: Dimensions.get('window').height
-
      },
      titles:{
         marginTop: '30%',
+        width: '100%',
         alignItems: 'center'
      },
      title:{
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
      },
      image:{
        width: '100%',
-       height: Dimensions.get('window').height,
+       height: '100%',
        resizeMode: 'cover',
        position: 'absolute'
      },
